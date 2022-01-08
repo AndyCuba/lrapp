@@ -60,7 +60,18 @@ const StyledTodosCard = styled.div`
         height: 86px;
         animation: 1s ease-in ${rotate};
         transform: rotate(-4.48deg);
-    } 
+    }
+
+    @media (max-width: 500px) {
+        max-width: 397px;
+        &::before {
+            width: 357px;
+        }
+        &::after {
+            width: 307px;
+        }
+        
+    }
 `;
 
 const StyledCardHeading = styled.div`
