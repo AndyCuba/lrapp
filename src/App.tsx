@@ -1,11 +1,11 @@
-import TodosCard from './components/TodosCard/TodoCard';
 import { AppWrapper, GlobalStyle } from './GlobalStyle';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
     <AppWrapper>
       <GlobalStyle />
-      <TodosCard />
+      <Home />
     </AppWrapper>
   );
 }
