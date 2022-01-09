@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/lrapp/static/js/main.0ad2feaa.js",
+    "static/media/checkmark-outline.svg": "/lrapp/static/media/checkmark-outline.bb387aec8789409ae4daf47b90107475.svg",
+    "index.html": "/lrapp/index.html",
+    "main.0ad2feaa.js.map": "/lrapp/static/js/main.0ad2feaa.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0ad2feaa.js"
+  ]
+}
