@@ -27,7 +27,7 @@ const StyledTodo = styled.div`
 `;
 
 const StyledCheckbox = styled.div`
-    width: 20px;
+    min-width: 20px;
     height: 20px;
     background: 
         ${(props: CompletedPropType) => props.completed ? `url(${checkmark}) no-repeat top 4px left 4px` : 'none'},
@@ -51,6 +51,18 @@ const StyledDescription = styled.div`
         font-weight: 400;
         font-size: 12px;
         line-height: 15px;
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            transform: rotate(90deg);
+            width: 12px;
+            height: 34px;
+            top: -6px;
+            right: 10px;
+            background: linear-gradient(180deg, #252E42 9.38%, rgba(37, 46, 66, 0) 66.15%);
+        }
     }
 `;
 

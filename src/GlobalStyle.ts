@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         min-height: 100vh;
         max-width: 1420px;
+        margin: auto;
         background-color: ${mainBackgroundColor};
         font-family: Montserrat;
     }
